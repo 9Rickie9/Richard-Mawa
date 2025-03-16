@@ -1,0 +1,90 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="pricing">
+        <h1>Flexible Pricing Plan</h1>
+        <div class="pricing-container">
+            <div class="plan">
+                <h2>Basic</h2>
+                <p>Have design ready to build? Or small budget</p>
+                <h3>$15 <span>/ Hour</span></h3>
+                <ul>
+                    <li>Need your wireframe</li>
+                    <li>Design with Figma, Framer</li>
+                    <li>Product Design</li>
+                    <li class="disabled">Digital Marketing</li>
+                    <li class="disabled">Custom Support</li>
+                </ul>
+                <button>Order Now</button>
+            </div>
+            <div class="plan">
+                <h2>Standard</h2>
+                <p>Not have any design? Leave it for me</p>
+                <h3>$59 <span>/ Hour</span></h3>
+                <ul>
+                    <li>Website Design</li>
+                    <li>Mobile Apps Design</li>
+                    <li>Product Design</li>
+                    <li>Digital Marketing</li>
+                    <li class="disabled">Custom Support</li>
+                </ul>
+                <button>Order Now</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html><style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f5f5f5;
+        text-align: center;
+    }
+    .pricing {
+        padding: 40px;
+    }
+    .pricing-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .plan {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 300px;
+    }
+    h1 {
+        color: #333;
+    }
+    h2 {
+        color: #444;
+    }
+    h3 {
+        color: green;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    ul li {
+        padding: 5px;
+    }
+    .disabled {
+        color: grey;
+        text-decoration: line-through;
+    }
+    button {
+        background: green;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
